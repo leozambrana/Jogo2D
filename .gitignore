@@ -1,0 +1,37 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+UserSettings/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Rider IDE
+.idea/
+*.sln
+*.csproj
+*.csproj.user
+*.pidb
+*.suo
+*.user
+*.unityproj
+*.booproj
+*.tmp
+*.bak
+*.swp
+*.lock
+*.cache
+*.preferences
+*.sln.DotSettings*
+
+# Visual Studio
+.vscode/
+*.sln
+*.csproj
+*.pidb

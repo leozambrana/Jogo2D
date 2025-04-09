@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    public GameOver gameOver;
     public int currentCoin = 0;
     public TMP_Text coin;
 
@@ -38,6 +39,7 @@ public class Player : MonoBehaviour
     {
         if (maxHealth <= 0)
         {
+            maxHealth = 0;
             Die();
         }
         
@@ -101,14 +103,14 @@ public class Player : MonoBehaviour
 
     public void Attack()
     {
+        Debug.Log("AHH SE N CHEGOU AQUI A VACA FOI PRO BREJO");
         var collisionInfo = Physics2D.OverlapCircle(attackPoint.position, attackRadius, attackLayer);
-        if (collisionInfo)
-        {
-            if (collisionInfo.gameObject.GetComponent<PatrolEnemy>())
-            {
-                collisionInfo.gameObject.GetComponent<PatrolEnemy>().TakeDamage(1);
-            }
-        }
+        Debug.Log(collisionInfo);
+        if (!collisionInfo) return;
+        Debug.Log("Nao ta ne hitando");
+        var damageable = collisionInfo.GetComponent<IDamageable>();
+        Debug.Log(damageable);
+        damageable?.TakeDamage(1);
     }
 
     private void OnDrawGizmosSelected()
@@ -138,10 +140,12 @@ public class Player : MonoBehaviour
         maxHealth -= damage;
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     private void Die()
     {
-        Debug.Log("Die");
+        animator.SetTrigger("Death");
         FindObjectOfType<GameManager>().isGameActive = false;
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, 1f);
+        gameOver.Setup(currentCoin);
     }
 }

@@ -1,44 +1,79 @@
 fileFormatVersion: 2
-guid: 432e48af0c833ad4587d222b812b844f
-AssetOrigin:
-  serializedVersion: 1
-  productId: 165188
-  packageName: Hero Knight - Pixel Art
-  packageVersion: 1.2
-  assetPath: Assets/Hero Knight - Pixel Art/Sprites/HeroKnight_DeathNoBlood.png
-  uploadId: 447637
+guid: 3859e3aaa5a79344ca31bc4bf08ad3dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 21300000
-    second: HeroKnight_DeathNoBlood_0
+      213: -9192638271177797499
+    second: death_0
   - first:
-      213: 21300002
-    second: HeroKnight_DeathNoBlood_1
+      213: 8559509556701815258
+    second: death_1
   - first:
-      213: 21300004
-    second: HeroKnight_DeathNoBlood_2
+      213: -5286180679089938723
+    second: death_2
   - first:
-      213: 21300006
-    second: HeroKnight_DeathNoBlood_3
+      213: -1891855120789479077
+    second: death_3
   - first:
-      213: 21300008
-    second: HeroKnight_DeathNoBlood_4
+      213: -5582970244224541034
+    second: death_4
   - first:
-      213: 21300010
-    second: HeroKnight_DeathNoBlood_5
+      213: 830680230883465780
+    second: death_5
   - first:
-      213: 21300012
-    second: HeroKnight_DeathNoBlood_6
+      213: 6596258498841548387
+    second: death_6
   - first:
-      213: 21300014
-    second: HeroKnight_DeathNoBlood_7
+      213: -4147321062969920389
+    second: death_7
   - first:
-      213: 21300016
-    second: HeroKnight_DeathNoBlood_8
+      213: 2602597460433512539
+    second: death_8
   - first:
-      213: 21300018
-    second: HeroKnight_DeathNoBlood_9
+      213: -2134515381725696932
+    second: death_9
+  - first:
+      213: -270028788923616002
+    second: death_10
+  - first:
+      213: -5121890589552714621
+    second: death_11
+  - first:
+      213: 627783550670650900
+    second: death_12
+  - first:
+      213: 2891620135027730149
+    second: death_13
+  - first:
+      213: 7975919600420608313
+    second: death_14
+  - first:
+      213: 6275631635777415744
+    second: death_15
+  - first:
+      213: -9015114149152096869
+    second: death_16
+  - first:
+      213: -133209616158212645
+    second: death_17
+  - first:
+      213: -7524816321260968566
+    second: death_18
+  - first:
+      213: -3394814105837533734
+    second: death_19
+  - first:
+      213: -7933534624763666014
+    second: death_20
+  - first:
+      213: -5417755882475958080
+    second: death_21
+  - first:
+      213: -3414521176158850147
+    second: death_22
+  - first:
+      213: -965786126583861285
+    second: death_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,9 +135,9 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
@@ -147,100 +182,188 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_0
+      name: death_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 57
-        width: 43
-        height: 38
+        x: 34
+        y: 117
+        width: 53
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 26354bf478fc25b4faebb4737184eb3c
-      internalID: 21300000
+      spriteID: 58059c172303d6080800000000000000
+      internalID: -9192638271177797499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_1
+      name: death_1
       rect:
         serializedVersion: 2
-        x: 117
-        y: 57
-        width: 45
-        height: 37
+        x: 134
+        y: 117
+        width: 54
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8934f5587a465b74990fbcfd0509fdec
-      internalID: 21300002
+      spriteID: ad1e5c2779c79c670800000000000000
+      internalID: 8559509556701815258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_2
+      name: death_4
       rect:
         serializedVersion: 2
-        x: 219
-        y: 57
-        width: 43
-        height: 37
+        x: 234
+        y: 117
+        width: 53
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6b5ff04216fb9ad45ae592c4c65d84a3
-      internalID: 21300004
+      spriteID: 69e9b69842e4582b0800000000000000
+      internalID: -5582970244224541034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_3
+      name: death_5
       rect:
         serializedVersion: 2
-        x: 315
-        y: 57
-        width: 46
-        height: 39
+        x: 334
+        y: 117
+        width: 32
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 889687275989c0148819b9ec2c6747fd
-      internalID: 21300006
+      spriteID: 43a9fb3d44b278b00800000000000000
+      internalID: 830680230883465780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_4
+      name: death_6
       rect:
         serializedVersion: 2
-        x: 414
-        y: 57
-        width: 51
+        x: 434
+        y: 117
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3661a1ef72e9a8b50800000000000000
+      internalID: 6596258498841548387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_7
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 117
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74be287771c176c0800000000000000
+      internalID: -4147321062969920389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_8
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 125
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b582972e9984e1420800000000000000
+      internalID: 2602597460433512539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_9
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 122
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ce1a8c19da062e0800000000000000
+      internalID: -2134515381725696932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 132
+        width: 26
         height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -248,120 +371,32 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c9fa48931f1bdf0428541d41cc232a7f
-      internalID: 21300008
+      spriteID: ef434154f3aa04cf0800000000000000
+      internalID: -270028788923616002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_5
+      name: death_11
       rect:
         serializedVersion: 2
-        x: 12
-        y: 2
-        width: 52
-        height: 29
+        x: 936
+        y: 144
+        width: 26
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 07e8c23988630ba478443b8e149bc3a6
-      internalID: 21300010
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_6
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 2
-        width: 53
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ae86efb25c735c4a82adf2122db59e3
-      internalID: 21300012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_7
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 2
-        width: 70
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 686c1179fd0872b458c529b0508c9c4f
-      internalID: 21300014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_8
-      rect:
-        serializedVersion: 2
-        x: 312
-        y: 2
-        width: 70
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9249d1e31573710468ef95c44e312569
-      internalID: 21300016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HeroKnight_DeathNoBlood_9
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 2
-        width: 70
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 473e826b59cbf834aa61834b0b6961d9
-      internalID: 21300018
+      spriteID: 38c5b4f45a36be8b0800000000000000
+      internalID: -5121890589552714621
       vertices: []
       indices: 
       edges: []
@@ -370,7 +405,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3ee530dd4af6f614cbda0d0e5ed16ba5
+    spriteID: 995dcd25b48f8b346849fe42199a8f14
     internalID: 0
     vertices: []
     indices: 
@@ -380,16 +415,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      HeroKnight_DeathNoBlood_0: 21300000
-      HeroKnight_DeathNoBlood_1: 21300002
-      HeroKnight_DeathNoBlood_2: 21300004
-      HeroKnight_DeathNoBlood_3: 21300006
-      HeroKnight_DeathNoBlood_4: 21300008
-      HeroKnight_DeathNoBlood_5: 21300010
-      HeroKnight_DeathNoBlood_6: 21300012
-      HeroKnight_DeathNoBlood_7: 21300014
-      HeroKnight_DeathNoBlood_8: 21300016
-      HeroKnight_DeathNoBlood_9: 21300018
+      death_0: -9192638271177797499
+      death_1: 8559509556701815258
+      death_10: -270028788923616002
+      death_11: -5121890589552714621
+      death_12: 627783550670650900
+      death_13: 2891620135027730149
+      death_14: 7975919600420608313
+      death_15: 6275631635777415744
+      death_16: -9015114149152096869
+      death_17: -133209616158212645
+      death_18: -7524816321260968566
+      death_19: -3394814105837533734
+      death_2: -5286180679089938723
+      death_20: -7933534624763666014
+      death_21: -5417755882475958080
+      death_22: -3414521176158850147
+      death_23: -965786126583861285
+      death_3: -1891855120789479077
+      death_4: -5582970244224541034
+      death_5: 830680230883465780
+      death_6: 6596258498841548387
+      death_7: -4147321062969920389
+      death_8: 2602597460433512539
+      death_9: -2134515381725696932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

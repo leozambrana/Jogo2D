@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class PatrolEnemy : MonoBehaviour
+public class PatrolEnemy : MonoBehaviour, IDamageable
 {
     
     public int maxHealth = 5;
@@ -120,7 +120,6 @@ public class PatrolEnemy : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log(this.transform.name + " has been destroyed!");
         Destroy(this.gameObject);
     }
 

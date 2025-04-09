@@ -76,9 +76,9 @@ GameObject:
   - component: {fileID: 2651441201066343424}
   - component: {fileID: 5616140371716504883}
   - component: {fileID: 5880849120180251098}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PatrolEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -240,6 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 897c35f82cae1f94a9cae0aac9296650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 5
   moveSpeed: 2
   checkPoint: {fileID: 8649676828014748904}
   distance: 0.6
@@ -252,7 +253,7 @@ MonoBehaviour:
   chaseSpeed: 4
   animator: {fileID: 5880849120180251098}
   attackPoint: {fileID: 3017723538015833526}
-  attackRadius: 1
+  attackRadius: 1.4
   attackLayer:
     serializedVersion: 2
     m_Bits: 128

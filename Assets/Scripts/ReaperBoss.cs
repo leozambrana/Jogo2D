@@ -16,6 +16,8 @@ public class ReaperBoss : MonoBehaviour, IDamageable
     public float attackRadius = 1f;
     public LayerMask attackLayer;
 
+    public Victory victory; 
+
     private void Update()
     {
         if (!FindObjectOfType<GameManager>().isGameActive) return;
@@ -73,6 +75,8 @@ public class ReaperBoss : MonoBehaviour, IDamageable
     {
         animator.SetTrigger("Die");
         Destroy(this.gameObject, 1f);
+        var currentPlayer = FindObjectOfType<Player>();
+        victory.Setup(currentPlayer.currentCoin);
     }
 
     private void OnDrawGizmosSelected()
